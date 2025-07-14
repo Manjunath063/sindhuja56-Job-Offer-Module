@@ -20,7 +20,7 @@ services:
       - app-network
 
   employee-application:
-    container_name: Employee-application01
+    container_name: Employee-application001
     build: ./Employee-application
     ports:
       - "8017:80"
